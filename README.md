@@ -33,9 +33,9 @@ Passed after a 7-day focused sprint.
 
 **Where to find progress**
 
-- Daily notes and architecture explanations: [`docs/`](docs/)
+- Daily notes and architecture explanations: [`docs/`](docs/)  Diagrams are written as Mermaid inside each doc and render on GitHub
 - Hands-on labs with steps and screenshots: [`labs/`](labs/)
-- Architecture diagrams: [`diagrams/`](diagrams/)
+
 
 ## Repository Layout
 
@@ -43,7 +43,6 @@ Passed after a 7-day focused sprint.
 |---|---|
 | `docs/` | One document per study day |
 | `labs/` | Hands-on lab walkthroughs |
-| `diagrams/` | Architecture diagrams |
 | `assets/` | Badge and certificate images |
 
 ## Contributing
