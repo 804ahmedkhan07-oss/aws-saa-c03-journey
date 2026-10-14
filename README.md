@@ -17,7 +17,7 @@ Passed after a 7-day focused sprint.
   <img src="assets/clf-badge.png" alt="AWS Certified Cloud Practitioner badge" width="150">
 </a>
 
-- Verify badge: [Credly](YOUR_CREDLY_BADGE_LINK)
+- Verify badge: [Credly](https://www.credly.com/badges/1cc68734-629a-40df-84f5-b81b979ce47e/public_url)
 - Certificate: see below
 - Detailed CLF notes: [CLF repository](YOUR_CLF_REPO_LINK)
 
