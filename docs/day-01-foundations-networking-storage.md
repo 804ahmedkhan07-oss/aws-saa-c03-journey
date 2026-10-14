@@ -1,7 +1,27 @@
 # Day 1: Core Foundations, Networking and Storage
 
 ## Goal
-Understand the building blocks every architecture depends on: identity, compute, network, and storage.
+Understand the building blocks every architecture depends on: identity, compute, network, and storage. 
+## Architecture
+
+```mermaid
+flowchart TD
+    I[Internet] --> IGW[Internet Gateway]
+    IGW --> RT[Route Table]
+    subgraph VPC
+        subgraph Public Subnet
+            RT --> EC2[EC2 Instance<br/>Security Group: stateful]
+        end
+        subgraph Private Subnet
+            DB[Private resources]
+        end
+        NACL[Network ACL: stateless<br/>applies at subnet level]
+    end
+    EC2 --> EBS[EBS Volume<br/>single AZ]
+    EC2 --> EFS[EFS<br/>multi-AZ file system]
+    EC2 --> IS[Instance Store<br/>ephemeral]
+    EC2 -.-> DB
+```
 
 ## What I studied
 
