@@ -82,4 +82,4 @@ Architecture review and Tutorials Dojo scenario drills. (Edit this line if you b
 - "OS-level access on a managed database" points to RDS Custom.
 
 ## Drill result
-Tutorials Dojo mixed scenarios: 5/5, including the RDS Proxy connection exhaustion case.
+Tutorials Dojo mixed scenarios: 5/5, including the RDS Proxy connection exhaustion case!
